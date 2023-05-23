@@ -1,0 +1,40 @@
+.SubParts-Ressources {
+    margin-top: 25px;
+    margin-left: 50px;
+    transform: translate(6%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Positionner les sous-parties les unes par rapport aux autres */
+.Godot, .Rider, .GitHub, .Aseprite, .Blender, .Musiclab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Positionner le titre des sous-parties */
+.SubParts-Title {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+/* Positionner le texte */
+.SubParts-Text-Ressources {
+    flex: 0 0 60%;
+    padding: 20px;
+    background-color: darkblue;
+    color: #f1f1f1;
+    text-align: justify;
+}
+
+/*Positionner l'image */
+.SubParts-Image-Ressources {
+    height: 250px;
+    width: 400px;
+    margin-top: 5px;
+    flex: 0 0 40%;
+    border-radius: 50%; //TODO peut-être à enlever
+}

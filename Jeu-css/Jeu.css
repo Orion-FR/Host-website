@@ -1,0 +1,39 @@
+.SubParts-Jeu {
+    margin-top: 25px;
+    margin-left: 50px;
+    transform: translate(6%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Positionner les sous-parties les uns par rapport aux autres */
+.Histoire, .Gameplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Positionner le titre des sous-parties */
+.SubParts-Title {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+/* Positionner le texte */
+.SubParts-Text-Jeu {
+    flex: 0 0 60%;
+    padding: 20px;
+    background-color: darkblue;
+    color: #f1f1f1;
+    text-align: justify;
+}
+
+/* Positionner l'image */
+.SubParts-Image-Jeu {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+    flex: 0 0 40%;
+}

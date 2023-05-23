@@ -1,0 +1,57 @@
+.SubParts-Membres {
+    margin-top: 25px;
+    margin-left: 50px;
+    transform: translate(6%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Positionner les sous-parties les uns par rapport aux autres */
+.Anthony, .Camille, .José, .Paul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Positionner le titre des sous-parties */
+.SubParts-Title {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+/* Positionner le texte */
+.SubParts-Text-Membres {
+    flex: 0 0 60%;
+    padding: 20px;
+    background-color: darkblue;
+    color: #f1f1f1;
+    text-align: justify;
+}
+
+/* Positionner l'image */
+.SubParts-Image-Membres {
+    height: 250px;
+    width: 400px;
+    margin-top: 5px;
+    flex: 0 0 40%;
+    border-radius: 50%; //TODO peut-être à enlever
+}
+
+/*
+.Présentation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-member {
+    width: 50px;
+}
+
+.Member-Explication {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+} */

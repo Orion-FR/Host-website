@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Bandeau de navigation */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #f1f1f1;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+.active
+{
+    background: #f1f1f1;
+    color: black;
+}
+
+/* Image de fond */
+section.top-page {
+    background: url("Logos/Terre.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+/* Titre / Logo du jeu et bouton Play */
+.Logo-Game {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Name-Game {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Button-Play {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Titre des sections */
+.Section-Title {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.Section-Title::before {
+    content: "";
+    position: absolute;
+    background-color: darkblue;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+/* Jeu */
+.Jeu {
+    margin: 50px;
+}
+
+/* Membres */
+.Membres {
+    margin: 50px;
+}
+
+/* Réalisation */
+.Réalisation {
+    margin: 50px;
+}
+
+/* Ressources */
+.Ressources {
+    margin: 50px;
+}
+
+/* Téléchargement */
+.Téléchargement {
+    margin: 50px;
+}
+
+/* Pied de page */
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    justify-content: center;
+    font-weight: 400;
+    text-align: right;
+}
+
