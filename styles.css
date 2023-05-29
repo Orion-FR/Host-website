@@ -49,7 +49,7 @@ header ul li a:hover,
 
 /* Image de fond */
 section.top-page {
-    background: url("Logos/Terre.jpg");
+    background: url("Logos/Planet.png");
     background-size: cover;
     height: 100vh;
     padding: 25px;
@@ -58,14 +58,14 @@ section.top-page {
 /* Titre / Logo du jeu et bouton Play */
 .Logo-Game {
     position: absolute;
-    top: 40%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .Name-Game {
     position: absolute;
-    top: 72%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
