@@ -15,11 +15,11 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 50px;
+    padding: 0.5% 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 100%;
 }
 
 header ul {
@@ -128,4 +128,3 @@ footer {
     font-weight: 400;
     text-align: right;
 }
-

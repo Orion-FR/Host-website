@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b980daa1-02a9-46e0-9dc8-9708e8dff240" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logos/Moonlight Ira.png" beforeDir="false" afterPath="$PROJECT_DIR$/Logos/Moonlight Ira.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moonlight Ira.png" beforeDir="false" afterPath="$PROJECT_DIR$/Moonlight Ira.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logos/MusicLab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logos/Paul.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources-css/Ressources.css" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources-css/Ressources.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,8 @@
       <workItem from="1681946307480" duration="1401000" />
       <workItem from="1681980246139" duration="7481000" />
       <workItem from="1684929351748" duration="72000" />
-      <workItem from="1685387261045" duration="8641000" />
+      <workItem from="1685387261045" duration="12565000" />
+      <workItem from="1685405648338" duration="260000" />
     </task>
     <servers />
   </component>

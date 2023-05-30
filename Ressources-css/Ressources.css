@@ -8,7 +8,7 @@
 }
 
 /* Positionner les sous-parties les unes par rapport aux autres */
-.Godot, .Rider, .GitHub, .Aseprite, .Blender, .Musiclab {
+.Godot, .Rider, .GitHub, .Aseprite, .Blender, .Ableton {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
