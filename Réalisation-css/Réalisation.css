@@ -10,14 +10,14 @@ html {
 
 .Box-Timeline {
     width: 100%;
-    height: 1500px;
+    height: 2500px;
     position: relative;
     padding: 80px 0 250px 0;
     margin-bottom: 300px;
 }
 
 .Lign {
-    height: 1500px;
+    height: 2500px;
     width: 8px;
     margin: 0 auto;
     background: darkblue;
@@ -42,10 +42,14 @@ html {
 /* Calcul => HauteurLigne - LongueurEnHautEtEnBas + HauteurEnHaut / NombreDeVignettes - 1 */
 /* Exemple avec seulement 4 vignettes => 1000 - 160 + 80 / 3 =~ 306 */
 .C1 {top: 80px;}
-.C2 {top: 435px;}
-.C3 {top: 790px;}
-.C4 {top: 1145px;}
-.C5 {top: 1500px;}
+.C2 {top: 382px;}
+.C3 {top: 684px;}
+.C4 {top: 986px;}
+.C5 {top: 1300px;}
+.C6 {top: 1590px;}
+.C7 {top: 1892px;}
+.C8 {top: 2194px;}
+.C9 {top: 2500px;}
 
 /* Création des boîtes */
 .Box {
@@ -71,22 +75,42 @@ html {
 }
 
 .B2 {
-    top: 435px;
+    top: 382px;
     left: calc(50% + 270px);
 }
 
 .B3 {
-    top: 790px;
+    top: 684px;
     left: calc(50% - 270px);
 }
 
 .B4 {
-    top: 1145px;
+    top: 986px;
     left: calc(50% + 270px);
 }
 
 .B5 {
-    top: 1500px;
+    top: 1300px;
+    left: calc(50% - 270px);
+}
+
+.B6 {
+    top: 1590px;
+    left: calc(50% + 270px);
+}
+
+.B7 {
+    top: 1892px;
+    left: calc(50% - 270px);
+}
+
+.B8 {
+    top: 2194px;
+    left: calc(50% + 270px);
+}
+
+.B9 {
+    top: 2500px;
     left: calc(50% - 270px);
 }
 
